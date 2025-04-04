@@ -9,6 +9,7 @@ const GitInfo = () => {
 			<p>Git info paragraph4</p>
 			<p>Git info paragraph5</p>
 			<p>Git info paragraph7</p>
+			<p>Git info paragraph8</p>
 		</>
 	);
 };
