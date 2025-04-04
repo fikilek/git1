@@ -1,13 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import GitInfo from "./components/GitInfo";
 
 function App() {
 	return (
-		<>
+		<div className="app">
 			<h1>Git Tutorial</h1>
-		</>
+			<p>This is my first git tutorial</p>
+			<GitInfo />
+		</div>
 	);
 }
 
