@@ -1,6 +1,7 @@
 import "./App.css";
 import GitInfo from "./components/GitInfo";
 import GitOther from "./components/GitOther";
+import GitStrAdr from "./components/GitStrAdr";
 
 function App() {
 	return (
@@ -9,6 +10,7 @@ function App() {
 			<p>This is my first git tutorial</p>
 			<GitInfo />
 			<GitOther />
+			<GitStrAdr />
 		</div>
 	);
 }
